@@ -1,6 +1,10 @@
 # BRIEF INTRODUCTION #
 
 The goal of our Project was to develop a reliable and efficient method for the discrimination of Electronic Recoils (Background Events) and Nuclear Recoils (Signal Events) in the CYGNO Framework. 
+Data is made of 2D images, where it is possible to observe the products of the interaction of the incident particle with the Active Volume, where the specific type of event is generated.
+
+<img width="128" height="128" alt="run99266_event156_scint20400" src="https://github.com/user-attachments/assets/db9d352f-2522-44ac-bf07-5ffb061b1d47" />
+
 Thanks to Machine Learning, the objective was to train a Model to learn the characteristic features of the two events, being able to discriminate between them in the Energy-Density Plane. 
 The analysis develops around Two Real Datasets (a Fully Electronic Background Dataset and a Mixed Dataset) and Two Monte Carlo Simulated Datasets (an Electronic Recoil Dataset and a Nuclear Recoil Dataset).
 Since labels for the real mixed dataset are not available, the project revolves around two different strategies: training the models on Monte Carlo Data and Training using the CWoLa Approach. 
