@@ -11,3 +11,6 @@ Starting from a previous CNN model, different routes have been explored:
 - CNN Contrastive Learning: to mix the Monte Carlo training with the CWoLa Approach, to obtain the best results possible.
 
 Each of the approaches has a different .ipynb file, and the Results are presented in the CYGNODiscrimination.pptx file.
+
+
+<img width="2048" height="1016" alt="image" src="https://github.com/user-attachments/assets/0a7792ac-6d48-4f59-9c70-304fd650cde8" />
